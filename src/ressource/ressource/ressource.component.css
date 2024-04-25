@@ -1,0 +1,397 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+.resource-section {
+  margin-top: 40px;
+}
+
+.resource-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resource-item {
+  margin-bottom: 20px;
+}
+
+/* Styles des formulaires */
+.resource-form {
+  margin-top: 10px;
+}
+
+.resource-form input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.resource-form button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resource-form button:hover {
+  background-color: #45a049;
+}
+
+/* Styles des commentaires */
+.comments-section {
+  margin-top: 10px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-list li {
+  margin-bottom: 10px;
+}
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4c92cf;
+  padding: 10px 0;
+  text-align: center;
+ 
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #000;
+}
+/* Style de la section des cours */
+.course-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Style de la liste des cours */
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-item {
+  margin-bottom: 20px;
+}
+
+/* Style du formulaire pour ajouter un PDF */
+.resource-form input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.resource-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resource-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style de la section des commentaires */
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style du formulaire pour ajouter un commentaire */
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #218838;
+}
+
+/* Style de la liste des commentaires */
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+/* Style de la section des devoirs */
+.assignments-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Style de la liste des devoirs */
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-item {
+  margin-bottom: 20px;
+}
+
+/* Style du formulaire pour ajouter un fichier de devoir */
+.resource-form input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.resource-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resource-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style de la section des commentaires */
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style du formulaire pour ajouter un commentaire */
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #218838;
+}
+
+/* Style de la liste des commentaires */
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+/* Style de la section des séries */
+.series-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.series-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Style de la liste des séries */
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-item {
+  margin-bottom: 20px;
+}
+
+/* Style du formulaire pour ajouter un fichier de série */
+.resource-form input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.resource-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resource-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style de la section des commentaires */
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style du formulaire pour ajouter un commentaire */
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #218838;
+}
+
+/* Style de la liste des commentaires */
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.course-section{
+  margin-top: auto;
+  margin-left: 20%;
+  
+  margin-right: 20%;
+}
+.series-section{
+  margin-left: 20%;
+  
+  margin-right: 20%;
+ 
+}
+.assignments-section{
+  margin-left: 20%;
+  
+  margin-right: 20%;
+
+}

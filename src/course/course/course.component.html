@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>matieres</title>
+</head>
+<body>
+  <header>
+    <img src="assets/Logo_ENICarthage.jpg" alt="logo" class="logo">
+  </header>
+  <main>
+    <div class="course-row">
+      <h1 >semestre1</h1>
+      <div *ngFor="let course of courses">
+        <section class="course" *ngIf="course.id <= 23">
+          <img [src]="course.image" [alt]="course.name">
+          <h2>{{ course.name }}</h2>
+          <!-- Appel de la fonction navigateToResources avec l'ID du cours -->
+          <a href="javascript:void(0)" (click)="navigateToResources(course.id)">Commencer le cours</a>
+        </section>
+      </div>
+    </div>
+    
+    <div class="course-row">
+      <h1>semestre2</h1>
+      <!-- Utilisez la directive *ngFor pour parcourir les cours -->
+      <div *ngFor="let course of courses">
+        <!-- Appliquez la condition *ngIf à chaque cours -->
+        <section class="course" *ngIf="course.id >= 24 && course.id <= 35">
+          <img [src]="course.image" [alt]="course.name">
+          <h2>{{ course.name }}</h2>
+          <a href="#">Commencer le cours</a>
+        </section>
+      </div>
+    </div>
+    <div class="course-row">
+      <h1>semestre3</h1>
+      <!-- Utilisez la directive *ngFor pour parcourir les cours -->
+      <div *ngFor="let course of courses">
+        <!-- Appliquez la condition *ngIf à chaque cours -->
+        <section class="course" *ngIf="course.id >= 36 && course.id <= 47">
+          <img [src]="course.image" [alt]="course.name">
+          <h2>{{ course.name }}</h2>
+          <a href="#">Commencer le cours</a>
+        </section>
+      </div>
+    </div>
+    <div class="course-row">
+      <h1>semestre4</h1>
+      <!-- Utilisez la directive *ngFor pour parcourir les cours -->
+      <div *ngFor="let course of courses">
+        <!-- Appliquez la condition *ngIf à chaque cours -->
+        <section class="course" *ngIf="course.id >= 48 && course.id <= 59">
+          <img [src]="course.image" [alt]="course.name">
+          <h2>{{ course.name }}</h2>
+          <a href="#">Commencer le cours</a>
+        </section>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <p>&copy; 2023 enicarthage</p>
+  </footer>
+</body>
+</html>

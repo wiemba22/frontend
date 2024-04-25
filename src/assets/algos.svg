@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="510" height="400" viewBox="0 0 510 400">
+  <defs>
+    <clipPath id="clip-Data_structure_icon_5">
+      <rect width="510" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="Data_structure_icon_5" data-name="Data structure icon – 5" clip-path="url(#clip-Data_structure_icon_5)">
+    <rect width="510" height="400" fill="#fff"/>
+    <g id="Artboard-4-Copy-4" transform="translate(286 35)">
+      <g id="Group" transform="translate(6 6)">
+        <path id="Line" d="M76.5,50.5l-35,46" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-2" d="M97.5,57.5v40" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-3" d="M118.5,51.5l39,48" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-4" d="M166,132l7.5,35.5" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-5" d="M55.5,122.5l60,49" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-6" d="M41.5,129.5l17,38" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <path id="Line-7" d="M26.5,129.5l-11,38" fill="none" stroke="#009ad3" stroke-linecap="square" stroke-width="8" fill-rule="evenodd"/>
+        <circle id="Oval-3" cx="26" cy="26" r="26" transform="translate(72)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy" cx="20" cy="20" r="20" transform="translate(77 84)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-2" cx="20" cy="20" r="20" transform="translate(15 84)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-4" cx="14.5" cy="14.5" r="14.5" transform="translate(0 156)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-5" cx="14.5" cy="14.5" r="14.5" transform="translate(46 161)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-6" cx="14.5" cy="14.5" r="14.5" transform="translate(105 160)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-7" cx="14.5" cy="14.5" r="14.5" transform="translate(160 156)" fill="#009ad3"/>
+        <circle id="Oval-3-Copy-3" cx="20" cy="20" r="20" transform="translate(139 84)" fill="#009ad3"/>
+      </g>
+    </g>
+    <text id="Data_Structure" data-name="Data
+Structure" transform="translate(152.5 111.5)" fill="#31c5f0" stroke="#000" stroke-width="1.5" font-size="68" font-family="Raleway-SemiBold, Raleway" font-weight="600"><tspan x="-75.038" y="0">Data</tspan><tspan x="-150.722" y="80">Structure</tspan></text>
+  </g>
+</svg>
